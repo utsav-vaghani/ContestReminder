@@ -1,0 +1,22 @@
+{% load static %}
+<!DOCTYPE HTML>
+<html>
+    <head>
+		<title>Verify</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        <link rel="stylesheet" type="text/css" href="{% static 'main.css' %}">
+    </head>
+    <body>
+        <div class="bg-text">
+            <h1 style="color:black;">Verify your Mail</h1>
+            <img class="img" src="{% static 'otp.gif' %}" height="110px" alt="OTP">
+			<h1 style="color:black;">send to your mail</h1>
+            <form action="otpverify" method="post">
+                <span class="imp"><input type="text" name="otp" placeholder="OTP"><span></br></br>
+                <input class="btn1" type="submit" value="Verify">
+            </form>
+            </br></br>
+		</div>
+    </body>
+</html>

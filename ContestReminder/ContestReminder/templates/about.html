@@ -1,0 +1,33 @@
+{% load static %}
+<!DOCTYPE HTML>
+<html>
+    <head>
+		<title>About</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        <link rel="stylesheet" type="text/css" href="{% static 'main.css' %}">
+    </head>
+    <body>
+        <div class="bg-text">
+            <h1 style="color:black;">Developed With</h1>
+            <img class="img" src="{% static 'heart.gif' %}" height="80px" alt="OTP">
+            <h1 style="color:black;">By</h1>
+            <h3><a href="https://github.com/ultra-utsav" target="_blank" style="text-decoration:none">Utsav Vaghani</a> </h3>
+            <h3><a href="https://github.com/codestromer" target="_blank" style="text-decoration:none">Akshit Desai</a> </h3>
+            <h3><a href="https://github.com/" target="_blank" style="text-decoration:none">Denes Vaghani</a> </h3>
+            
+            <!--Back Button-->
+            <form action="aboutback" method="post">
+                <input class="btn1" type="submit" value="Back">
+            </form>
+            <p> Contribute to Project :-</p>
+            <a href="https://github.com/codestromer/Repo" target="_blank" style="text-decoration:none">
+                <img src="{% static 'github.png' %}" alt="github" height="50" width="50">
+            </a>
+            </br></br>
+            <p style="position: absolute; left:0px; right:0px; bottom: 0px; font-size:14px;">
+				<a href="" style="text-decoration:none">Report Bug/Send Feedback</a> 
+			</p>
+		</div>
+    </body>
+</html>
