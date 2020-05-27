@@ -9,11 +9,11 @@ from email import encoders
 
 def sendMail(toaddr,string,subject):
 	# setting up the details
-    fromaddr = "contestreminder1@gmail.com"
+    fromaddr = ""
 
-    pwd = "1Contest#Reminder"
+    pwd = ""
 
-    #toaddr = "smailydenes@gmail.com"
+    
 
     receiver = "Entusiastic coder"
 
