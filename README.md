@@ -1,5 +1,5 @@
 # ContestReminder
-This is an web application which provide remider through mail before one hour of coding contests.</br>
+An web application which provide remider through mail before one hour of coding contests.</br>
 It sends reminder for platforms like Codechef, Codeforces, Hackerearth, Hackerrank, spoj.
 # Tools
 1.FrontEnd ( HTML, CSS) </br>
